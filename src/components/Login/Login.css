@@ -1,0 +1,78 @@
+.form-control{
+    padding: 1.600rem 3rem!important;
+    border-radius:2rem!important;
+    background: #e6e6e6!important;
+
+    /* position: relative; */
+}
+
+.form-group{
+    position: relative;
+}
+
+.icon-login{
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%) translateX(120%);
+
+}
+
+.form-control input:focus{
+  outline: none!important;
+  border: none!important;
+}
+.form-control input{
+    border: none;
+}
+
+.form-container{
+    background: linear-gradient(to right, #6dd5ed, #2193b0); 
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.form-card{
+    background-color: #fff;
+    width:31%;
+    /* width:420px; */
+    border-radius: 10px;
+    padding: 60px 46px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.form-card h2{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+
+.btn-grad {background-image: linear-gradient(to right, #4568DC 0%, #B06AB3  51%, #4568DC  100%)}
+.btn-grad {
+   margin: 20px auto;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+   width:86%;
+
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+   cursor:pointer;
+ }
+
+ 
+
+
